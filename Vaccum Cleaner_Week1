@@ -25,3 +25,25 @@ while position < len(rooms):
 
 print("\nAll rooms are clean!")
 print("Final rooms:", rooms)
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+OUTPUT:
+Enter rooms (D = Dirty, C = Clean): d c d c c 
+
+Initial rooms: ['D', 'C', 'D', 'C', 'C']
+Vacuum starts at room 1
+
+Room 1 is DIRTY
+Action: CLEAN
+Room 1 is now CLEAN
+Action: MOVE RIGHT
+Action: MOVE RIGHT
+Room 3 is DIRTY
+Action: CLEAN
+Room 3 is now CLEAN
+Action: MOVE RIGHT
+Action: MOVE RIGHT
+
+All rooms are clean!
+Final rooms: ['C', 'C', 'C', 'C', 'C']
